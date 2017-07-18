@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "../../bower_components/jquery-advanced-news-ticker/js/newsTicker.js",
+        "../../bower_components/OwlCarousel/owl-carousel/owl.carousel.min.js",
+        "scripts/main.js"
+      ],
+      "main": true
+    },
+    "main.css": {
+      "files": [
+        "../../bower_components/OwlCarousel/owl-carousel/owl.carousel.css",
+        "styles/main.scss"
+      ],
+      "main": true
+    },
+    "customizer.js": {
+      "files": [
+        "scripts/customizer.js"
+      ]
+    },
+    "jquery.js": {
+      "bower": ["jquery"]
+    },
+    "jquery-advanced-news-ticker.js": {
+      "bower": ["jquery-advanced-news-ticker"]
+    }
+  },
+  "config": {
+    "devUrl": "http://entel.dev"
+  }
+}
